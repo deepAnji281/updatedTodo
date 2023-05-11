@@ -1,0 +1,44 @@
+.todo-details{
+    display: flex;
+    position: relative;
+    margin-left: 32rem;
+    margin-top: 3rem;
+    border: 2px solid black;
+    width: 230px;
+    height: 60px;
+    background-color:lightsalmon;
+    border-radius: 20px;
+    text-align: center;
+}
+.todo-details button{
+    height: 25px;
+
+
+}
+.todo-details .edit{
+    position: absolute;
+    top:18px;
+    left:160px;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+.todo-details .cross{
+    position: absolute;
+    top:18px;
+    left:200px;
+    color:red;
+    font-weight: bold;
+    width:28px;
+    background-color: gray;
+    border-radius: 20px;
+}
+h3{
+    color:crimson;
+    font-style: italic;
+    font-size: large;
+    margin-left: 25px;
+}
+.todo-details:hover{
+    background-color: blueviolet;
+}

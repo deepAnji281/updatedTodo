@@ -1,0 +1,17 @@
+.input-and-add-btn input{
+    height: 35px;
+    width: 250px;
+    margin-top: 8rem;
+    text-align: center;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    color:gray;
+    
+}
+.input-and-add-btn button{
+    height: 35px;
+    color:white;
+    font-size:large;
+    background-color: green;
+    font-weight: bold;
+}
